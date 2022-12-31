@@ -18,7 +18,7 @@ public class Connect4 {
         do {
             playRound();
             printBoard();
-            turn = turn + 1;
+            turn++;
         } while (!isOver());
         printWinner();
     }
